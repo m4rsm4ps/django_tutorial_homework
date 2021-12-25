@@ -7,7 +7,7 @@ from polls.models import User
 
 class Command(BaseCommand):
     help = 'Creates random user and saves to database. ' \
-           'Amount of users can be specified via "-amt" or "--amount" option'
+           'Amount of users can be specified via "-amt" or "--amount" option'  # noqa: A003
 
     def add_arguments(self, parser):
         parser.add_argument('-amt', '--amount', type=int, choices=range(1, 11),
