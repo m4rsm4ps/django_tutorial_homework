@@ -1,0 +1,72 @@
+ [
+{
+  "model": "polls.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "What's up?",
+    "pub_date": "2021-12-20T11:41:19Z"
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 3,
+  "fields": {
+    "question_text": "Is anybody home?",
+    "pub_date": "2021-12-20T13:10:48Z"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 1,
+  "fields": {
+    "question": 1,
+    "choice_text": "Not much",
+    "votes": 3
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 2,
+  "fields": {
+    "question": 1,
+    "choice_text": "The sky",
+    "votes": 4
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 4,
+  "fields": {
+    "question": 3,
+    "choice_text": "Me!",
+    "votes": 2
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 5,
+  "fields": {
+    "question": 3,
+    "choice_text": "Nobody's home...",
+    "votes": 2
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$E01pJO9SzYpTkI00H4L8XK$rny58xTOpooP70/OzZqI/xTtZdIp56vn1o9TD+uMq+E=",
+    "last_login": "2021-12-15T16:56:34.541Z",
+    "is_superuser": true,
+    "username": "shrek",
+    "first_name": "",
+    "last_name": "",
+    "email": "shrek@samp.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-15T15:52:07.512Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
